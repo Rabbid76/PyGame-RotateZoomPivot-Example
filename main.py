@@ -24,8 +24,8 @@ def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_
 
     surf.blit(rotozoom_image, rect)
 
-cannon = pygame.image.load('cannon.png')
-cannon_mount = pygame.image.load('cannon_mount.png')
+cannon = pygame.image.load('image/cannon.png')
+cannon_mount = pygame.image.load('image/cannon_mount.png')
 
 angle, zoom_x, zoom_y = -90, 1, 1
 stage = 0
